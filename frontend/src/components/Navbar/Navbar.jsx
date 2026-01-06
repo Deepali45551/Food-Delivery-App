@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { assets } from "../../assets/assets";
 import { FaShoppingCart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { StoreContext } from "../../context/Storecontext";
+import { StoreContext } from "../../context/StoreContext.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ setShowLogin }) => {
